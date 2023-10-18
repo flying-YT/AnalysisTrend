@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AnalysisTrend/1.0.0": {
+        "dependencies": {
+          "MeCab.DotNet": "1.1.0"
+        },
+        "runtime": {
+          "AnalysisTrend.dll": {}
+        }
+      },
+      "MeCab.DotNet/1.1.0": {
+        "runtime": {
+          "lib/net6.0/MeCab.DotNet.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "2023.6.4.20923"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AnalysisTrend/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MeCab.DotNet/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ALg6/vkDZ+CYXNJ+Mri4vzf3njftYfou+ZgdDSoIIb17FLYDGPFziXqWu/UVFA5dTl0n+HxNQOFz0FX/012Yog==",
+      "path": "mecab.dotnet/1.1.0",
+      "hashPath": "mecab.dotnet.1.1.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "MeCab.DotNet/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MeCab.DotNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MeCab.DotNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/MeCab.DotNet.props": {},
+          "build/MeCab.DotNet.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/MeCab.DotNet.props": {},
+          "buildMultiTargeting/MeCab.DotNet.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MeCab.DotNet/1.1.0": {
+      "sha512": "ALg6/vkDZ+CYXNJ+Mri4vzf3njftYfou+ZgdDSoIIb17FLYDGPFziXqWu/UVFA5dTl0n+HxNQOFz0FX/012Yog==",
+      "type": "package",
+      "path": "mecab.dotnet/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "MeCab.DotNet-100.png",
+        "build/MeCab.DotNet.props",
+        "build/MeCab.DotNet.targets",
+        "buildMultiTargeting/MeCab.DotNet.props",
+        "buildMultiTargeting/MeCab.DotNet.targets",
+        "content/dic/README.txt",
+        "content/dic/char.bin",
+        "content/dic/dicrc",
+        "content/dic/matrix.bin",
+        "content/dic/sys.dic",
+        "content/dic/unk.dic",
+        "lib/InPackage",
+        "lib/net20/MeCab.DotNet.dll",
+        "lib/net20/MeCab.DotNet.xml",
+        "lib/net35/MeCab.DotNet.dll",
+        "lib/net35/MeCab.DotNet.xml",
+        "lib/net40/MeCab.DotNet.dll",
+        "lib/net40/MeCab.DotNet.xml",
+        "lib/net45/MeCab.DotNet.dll",
+        "lib/net45/MeCab.DotNet.xml",
+        "lib/net461/MeCab.DotNet.dll",
+        "lib/net461/MeCab.DotNet.xml",
+        "lib/net48/MeCab.DotNet.dll",
+        "lib/net48/MeCab.DotNet.xml",
+        "lib/net481/MeCab.DotNet.dll",
+        "lib/net481/MeCab.DotNet.xml",
+        "lib/net5.0/MeCab.DotNet.dll",
+        "lib/net5.0/MeCab.DotNet.xml",
+        "lib/net6.0/MeCab.DotNet.dll",
+        "lib/net6.0/MeCab.DotNet.xml",
+        "lib/net7.0/MeCab.DotNet.dll",
+        "lib/net7.0/MeCab.DotNet.xml",
+        "lib/netcoreapp2.0/MeCab.DotNet.dll",
+        "lib/netcoreapp2.0/MeCab.DotNet.xml",
+        "lib/netcoreapp2.1/MeCab.DotNet.dll",
+        "lib/netcoreapp2.1/MeCab.DotNet.xml",
+        "lib/netcoreapp2.2/MeCab.DotNet.dll",
+        "lib/netcoreapp2.2/MeCab.DotNet.xml",
+        "lib/netcoreapp3.0/MeCab.DotNet.dll",
+        "lib/netcoreapp3.0/MeCab.DotNet.xml",
+        "lib/netcoreapp3.1/MeCab.DotNet.dll",
+        "lib/netcoreapp3.1/MeCab.DotNet.xml",
+        "lib/netstandard1.3/MeCab.DotNet.dll",
+        "lib/netstandard1.3/MeCab.DotNet.xml",
+        "lib/netstandard1.6/MeCab.DotNet.dll",
+        "lib/netstandard1.6/MeCab.DotNet.xml",
+        "lib/netstandard2.0/MeCab.DotNet.dll",
+        "lib/netstandard2.0/MeCab.DotNet.xml",
+        "lib/netstandard2.1/MeCab.DotNet.dll",
+        "lib/netstandard2.1/MeCab.DotNet.xml",
+        "mecab.dotnet.1.1.0.nupkg.sha512",
+        "mecab.dotnet.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MeCab.DotNet >= 1.1.0"
+    ]
+  },
+  "packageFolders": {
+    "/root/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/dotnet/AnalysisTrend/AnalysisTrend/AnalysisTrend.csproj",
+      "projectName": "AnalysisTrend",
+      "projectPath": "/home/dotnet/AnalysisTrend/AnalysisTrend/AnalysisTrend.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/home/dotnet/AnalysisTrend/AnalysisTrend/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/root/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "MeCab.DotNet": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.415/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KcWjylcNHCwb7oZQTqCaDqo3VOIlxBcFHoE+BbHR2dPHl+3jE2bxKtfW9FZ/1eZfidfnYoZX16vZFshiz5sktg==",
+  "success": true,
+  "projectFilePath": "/home/dotnet/AnalysisTrend/AnalysisTrend/AnalysisTrend.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/mecab.dotnet/1.1.0/mecab.dotnet.1.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
