@@ -77,6 +77,7 @@ public class NGWord
         ngWordList.Add("場");
         ngWordList.Add("感");
         ngWordList.Add("三");
+        ngWordList.Add("着");
         ngWordList.Add("以上");
         ngWordList.Add("午前");
         ngWordList.Add("午後");
@@ -102,6 +103,7 @@ public class NGWord
         ngWordList.Add("ごろ");
         ngWordList.Add("キロ");
         ngWordList.Add("ところ");
+        ngWordList.Add("ちゃん");
         ngWordList.Add("その後");
         ngWordList.Add("％");
         ngWordList.Add("・");
@@ -111,6 +113,9 @@ public class NGWord
         ngWordList.Add("-");
         ngWordList.Add("!");
         ngWordList.Add("/");
+        ngWordList.Add("?");
+        ngWordList.Add(":");
+        ngWordList.Add("~");
     }
 
     public bool CheckNG(string str)
